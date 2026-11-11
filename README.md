@@ -150,6 +150,7 @@ The model uses **one fact table** (`FactPerformanceRating`), a **main dimension*
 | `DimEducationLevel[EducationLevelID]` | `DimEmployee[Education]` | `1 : *` | Snowflake link |
 
 > 💡 *Dotted lines are inactive relationships. They are normally activated inside DAX with `USERELATIONSHIP()`. Please confirm which ones are active.*
+<img width="861" height="433" alt="Screenshot 2026-11-11 204457" src="https://github.com/user-attachments/assets/b16da92c-1aad-4cc0-b9d4-786316f2992e" />
 
 ### 📐 DAX Measures (in the `Measure` table)
 
@@ -182,7 +183,7 @@ The model uses **one fact table** (`FactPerformanceRating`), a **main dimension*
 
 ### 1️⃣ Overview Page
 
-![Overview](images/overview.png)
+<img width="1168" height="577" alt="Screenshot 2026-11-11 204539" src="https://github.com/user-attachments/assets/290bb70c-f7cc-4eb8-b7d4-3251a06e0edb" />
 
 | 🔢 KPI | Value |
 |---|:---:|
@@ -209,7 +210,7 @@ The model uses **one fact table** (`FactPerformanceRating`), a **main dimension*
 
 ### 2️⃣ Demographics Page
 
-![Demographics](images/demographics.png)
+<img width="1173" height="574" alt="Screenshot 2026-11-11 204553" src="https://github.com/user-attachments/assets/5f80ed7e-4a9e-4aff-94ee-5ff6546877e9" />
 
 | 📊 Visual | Insight |
 |---|---|
@@ -235,7 +236,7 @@ The model uses **one fact table** (`FactPerformanceRating`), a **main dimension*
 
 ### 3️⃣ Performance Tracker Page
 
-![Performance Tracker](images/performance_tracker.png)
+<img width="1172" height="572" alt="Screenshot 2026-11-11 204608" src="https://github.com/user-attachments/assets/8a685151-efbe-4d7c-9aec-69ad1c4dc112" />
 
 An **individual employee view**: pick an employee from the dropdown (example: *Ariadne Isakov*) to see their review history.
 
@@ -248,7 +249,7 @@ An **individual employee view**: pick an employee from the dropdown (example: *A
 
 ### 4️⃣ Attrition Page
 
-![Attrition](images/attrition.png)
+<img width="1171" height="573" alt="Screenshot 2026-11-11 204622" src="https://github.com/user-attachments/assets/34874193-b187-4cf3-8b08-c004e9905526" />
 
 | 📊 Visual | Key Numbers |
 |---|---|
